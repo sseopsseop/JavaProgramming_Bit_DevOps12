@@ -1,9 +1,12 @@
 package chap02_variables;
 
 public class _02_ScopeOfVariables {
-	// 1. 클래스 변수(인스턴스 변수) 선언
+	// 1. 클래스 변수 선언(static으로 선언)
 	// 클래스 중괄호 안에서 어디서든지 접근해서 사용하거나 값을 저장할 수 있다.
 	static int num;
+	
+	// 인스턴스 변수(static 키워드 없이 클래스 안에서 선언된 변수)
+	int num1;
 	
 	public static void main(String[] args) {
 		// 1-1. 클래스 변수의 사용
